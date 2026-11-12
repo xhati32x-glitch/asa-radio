@@ -1,0 +1,33 @@
+{
+ "format": "myradio/station-1",
+ "name": "朝のまとめラジオ",
+ "description": "ロランスの朝のまとめを、ティアとレンが読み上げるラジオ。予定と進捗と、開いている件の現在地を毎朝届けます。",
+ "tagline": "起きたら聞く、今日の現在地",
+ "logo": null,
+ "url": "https://xhati32x-glitch.github.io/asa-radio/",
+ "repo": "https://github.com/xhati32x-glitch/asa-radio",
+ "language": "ja",
+ "languages": [
+  "ja"
+ ],
+ "schedule": {
+  "every": "day",
+  "time": "08:30",
+  "timezone": "Asia/Tokyo"
+ },
+ "episodes": "episodes.json",
+ "character": {
+  "pack": "character/character.json",
+  "thumbnail": "character/base.png",
+  "note": "AIで生成したキャラクター（ティア）です"
+ },
+ "credits": [
+  "声：ティア／レン（AI音声）",
+  "プレーヤー：myradio © 2026 monoradio102（MIT License）"
+ ],
+ "caster": "ティア＆レン",
+ "audio": {
+  "dir": "audio",
+  "keep_days": 30
+ }
+}
