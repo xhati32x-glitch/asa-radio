@@ -1,1 +1,41 @@
-{"background":"#161a26","base":"base.png","eye":{"blink":"blink","half":"half_blink"},"format":"myradio/character-1","mouth":{"1":"mouth_half","2":"mouth_open"},"note":"AIで生成したキャラクター「ティア」です。base.png に、口（mouth_*）と目（blink・half_blink）の小さな差分画像を x, y の位置に重ねます。差分は base の画像編集で作り、顔の特徴点で位置合わせしました","parts":{"blink":{"src":"blink.png","x":325,"y":222},"half_blink":{"src":"half_blink.png","x":325,"y":222},"mouth_half":{"src":"mouth_half.png","x":410,"y":298},"mouth_open":{"src":"mouth_open.png","x":410,"y":298}},"size":[896,896],"type":"sprites"}
+{
+ "background": "#161a26",
+ "base": "base.png",
+ "eye": {
+  "blink": "blink",
+  "half": "half_blink"
+ },
+ "format": "myradio/character-1",
+ "mouth": {
+  "1": "mouth_half",
+  "2": "mouth_open"
+ },
+ "note": "AIで生成したキャラクター「ティア」です。base.png に、口（mouth_*）と目（blink・half_blink）の小さな差分画像を x, y の位置に重ねます。差分は base の画像編集で作り、顔の特徴点で位置合わせしました",
+ "parts": {
+  "blink": {
+   "src": "blink.png",
+   "x": 322,
+   "y": 220
+  },
+  "half_blink": {
+   "src": "half_blink.png",
+   "x": 322,
+   "y": 220
+  },
+  "mouth_half": {
+   "src": "mouth_half.png",
+   "x": 388,
+   "y": 296
+  },
+  "mouth_open": {
+   "src": "mouth_open.png",
+   "x": 388,
+   "y": 296
+  }
+ },
+ "size": [
+  896,
+  896
+ ],
+ "type": "sprites"
+}
